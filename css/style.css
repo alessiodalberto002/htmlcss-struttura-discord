@@ -4,9 +4,25 @@
     box-sizing: border-box;
 }
 
+.flex {
+    display: flex;
+}
+
 .bg-cyan {background-color: cyan;}
 .bg-yellow {background-color: yellow;}
 
+.top-bar {
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
 header nav {
     height: 80px;
+    background-color: cyan;
+}
+
+.navbar {
+    height: 30px;
+    width: 50%;
 }
