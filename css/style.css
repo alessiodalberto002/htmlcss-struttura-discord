@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-cyan {background-color: cyan;}
+.bg-yellow {background-color: yellow;}
+
+header nav {
+    height: 80px;
+}
