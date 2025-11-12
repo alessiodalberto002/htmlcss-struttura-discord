@@ -4,6 +4,22 @@
     box-sizing: border-box;
 }
 
+.hfull {
+    height: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.dashed {
+    border: 1px dashed red;
+}
+
 .flex {
     display: flex;
 }
