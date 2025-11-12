@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
-.hfull {
-    height: 100%;
+.bg-cyan {background-color: cyan;}
+.bg-yellow {background-color: yellow;}
+.bg-blue {background-color: blue;}
+
+
+.h-50 {
+    height: 50%;
 }
 
 .w-50 {
@@ -24,9 +29,6 @@
     display: flex;
 }
 
-.bg-cyan {background-color: cyan;}
-.bg-yellow {background-color: yellow;}
-
 .top-bar {
     height: 80px;
     justify-content: center;
@@ -41,4 +43,8 @@ header nav {
 .navbar {
     height: 30px;
     width: 50%;
+}
+
+.content {
+    height: 900px;
 }
