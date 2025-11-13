@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+header nav {
+    height: 80px;
+    background-color: cyan;
+}
+
+footer {
+    height: 80px;
+    background-color: black;
+}
+
+.bg-black {background-color: black;}
 .bg-cyan {background-color: cyan;}
 .bg-yellow {background-color: yellow;}
 .bg-blue {background-color: blue;}
@@ -75,11 +86,6 @@
     align-items: center;
 }
 
-header nav {
-    height: 80px;
-    background-color: cyan;
-}
-
 .navbar {
     height: 30px;
     width: 50%;
@@ -103,8 +109,4 @@ header nav {
 
 .container-green {
     height: 80vh;
-}
-
-.ugo {
-    flex-basis: 50%;
 }
