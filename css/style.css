@@ -7,14 +7,48 @@
 .bg-cyan {background-color: cyan;}
 .bg-yellow {background-color: yellow;}
 .bg-blue {background-color: blue;}
+.bg-pink {background-color: #ed81ed;}
+.bg-grey {background-color: lightgrey;}
+.bg-green {background-color: green;}
 
+.basis-100 {
+    flex-basis: 100%;
+}
+
+.basis-75 {
+    flex-basis: 75%;
+}
+
+.basis-50 {
+    flex-basis: 50%;
+}
+
+.basis-25 {
+    flex-basis: 25%;
+}
 
 .h-50 {
     height: 50%;
 }
 
+.h-75 {
+    height: 75%;
+}
+
+.h-full {
+    height: 100%;
+}
+
 .w-50 {
     width: 50%;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-75 {
+    width: 75%;
 }
 
 .w-25 {
@@ -27,6 +61,12 @@
 
 .flex {
     display: flex;
+}
+
+.flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .top-bar {
@@ -45,6 +85,26 @@ header nav {
     width: 50%;
 }
 
+.jumbotron {
+    height: 400px;
+}
+
 .content {
-    height: 900px;
+    width: 50%;
+}
+
+.jumbotron-size {
+    width: 40%;
+}
+
+.container {
+    height: 500px;
+}
+
+.container-green {
+    height: 80vh;
+}
+
+.ugo {
+    flex-basis: 50%;
 }
