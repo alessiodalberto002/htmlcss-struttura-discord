@@ -14,6 +14,10 @@ footer {
     background-color: black;
 }
 
+footer button {
+    padding: 0px 15px;
+}
+
 .bg-black {background-color: black;}
 .bg-cyan {background-color: cyan;}
 .bg-yellow {background-color: yellow;}
@@ -72,6 +76,10 @@ footer {
 
 .flex {
     display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 
 .flex-centered {
